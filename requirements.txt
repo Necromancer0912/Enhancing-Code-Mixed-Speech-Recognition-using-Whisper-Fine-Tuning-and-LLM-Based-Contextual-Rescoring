@@ -1,0 +1,19 @@
+# install torch first, with CUDA:
+#   pip install torch --index-url https://download.pytorch.org/whl/cu128
+numpy
+pandas
+pyarrow
+transformers
+accelerate
+peft
+soundfile
+scipy
+librosa
+jiwer
+indic-transliteration
+matplotlib
+tqdm
+ipykernel
+jupyter
+nbformat
+huggingface_hub

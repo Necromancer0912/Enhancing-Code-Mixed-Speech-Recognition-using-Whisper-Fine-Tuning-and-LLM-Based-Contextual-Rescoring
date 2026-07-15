@@ -1,0 +1,3 @@
+split,utterances,hours,code_mixed_pct,mean_cmi,bengali_word_pct,english_word_pct
+train,26606,45.94,84.98,25.77,68.01,30.57
+test,4275,7.0,86.76,27.19,66.23,32.28

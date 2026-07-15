@@ -1,0 +1,4 @@
+model,S_WER,P_WER,T_WER
+B1 Whisper-small (ZS),195.24,249.53,246.15
+B2 PromptingWhisper-small (ZS+prompt),135.62,174.63,174.13
+B3 Whisper-large-v3-turbo (ZS),101.02,100.56,97.32

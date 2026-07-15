@@ -1,0 +1,18 @@
+model,S_WER,P_WER,T_WER
+B1 Whisper-small (ZS),195.24,249.53,246.15
+B2 PromptingWhisper-small (ZS+prompt),135.62,174.63,174.13
+B3 Whisper-large-v3-turbo (ZS),101.02,100.56,97.32
+FT-Whisper beam-top1,41.22,40.25,39.67
+MBR decoding (ours),40.1,39.09,38.48
+CLEAR (gpt2),43.11,42.2,41.64
+CLEAR (gpt2) +lennorm,45.96,45.06,44.46
+CLEAR (gpt2) +interp (lam=0.95),40.22,39.29,38.69
+CLEAR (bloom-1b1),41.63,40.74,40.19
+CLEAR (bloom-1b1) +lennorm,43.09,42.26,41.56
+CLEAR (bloom-1b1) +interp (lam=0.90),39.59,38.65,38.1
+CLEAR (qwen2.5-1.5b),42.07,41.08,40.51
+CLEAR (qwen2.5-1.5b) +lennorm,43.84,42.91,42.29
+CLEAR (qwen2.5-1.5b) +interp (lam=0.85),39.76,38.79,38.22
+CLEAR-DAR (ours),42.79,41.85,41.28
+CLEAR-DAR (ours) +lennorm,45.18,44.3,43.75
+CLEAR-DAR (ours) +interp (lam=0.95),40.02,39.09,38.52

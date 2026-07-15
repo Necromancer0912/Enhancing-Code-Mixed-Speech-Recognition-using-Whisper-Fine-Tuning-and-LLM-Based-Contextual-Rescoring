@@ -1,0 +1,24 @@
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# notebooks stay local; the python codebase under src/ and scripts/ is the release
+*.ipynb
+
+# course-internal and copyrighted material
+legacy/
+2025.icnlsp-1.33.pdf
+paper_extracted.txt
+project_instructor_post.txt
+
+# data and heavy artifacts
+Data/
+outputs_bn/checkpoints/
+outputs_bn/predictions/*.parquet
+outputs_bn/manifests/*.parquet
+
+# notebook-local helper superseded by src/clear_bn in the release
+clear_bn_utils.py
+interview_prep.html
+INTERVIEW_PREP.pdf
