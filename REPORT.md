@@ -13,11 +13,11 @@ ASR systems in specific, well-understood ways:
 
 - Cross-lingual homophone ambiguity: the same sound maps to different words in
   the two languages, and only sentence-level context disambiguates them.
-- Code-switch point detection: the recogniser must decide, word by word, which
+- Switch-point detection: the recogniser must decide, word by word, which
   language it is hearing, with no explicit marker in the audio.
 - Script ambiguity: a word such as "file" may legitimately be written in Latin
   script or in Bengali script, and a fair evaluation has to account for that.
-- Data scarcity: transcribed code-switched speech is rare, and Bengali-English
+- Data scarcity: transcribed code-mixed speech is rare, and Bengali-English
   is significantly lower-resourced than Hindi-English.
 
 The base paper addresses these problems for Hindi-English with a pipeline of
@@ -146,7 +146,7 @@ small multilingual LMs that did: BLOOM-1b1 and Qwen2.5-1.5B.
    other beams, weighted by ASR posterior. A training-free consensus baseline.
 6. Domain-Adaptive Rescorer (DAR): BLOOM-1b1 LoRA-tuned (r=16, ~1.6 M trainable
    parameters) on the 25k training transcripts, text only, one epoch. The
-   rescorer thus speaks the exact code-switched technical register it judges.
+   rescorer thus speaks the exact code-mixed technical register it judges.
 
 ### 3.6 Evaluation metrics
 

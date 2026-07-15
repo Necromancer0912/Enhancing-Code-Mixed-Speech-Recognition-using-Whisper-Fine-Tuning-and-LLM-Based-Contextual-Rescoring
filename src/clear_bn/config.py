@@ -1,6 +1,6 @@
 """Project-wide constants, paths and the descriptive prompts.
 
-CLEAR-Bn: Bengali-English code-switched ASR with LLM-driven rescoring,
+CLEAR-Bn: Bengali-English code-mixed ASR with LLM-driven rescoring,
 following Kumar & Akhtar (ICNLSP 2025) and extended to a new language pair.
 """
 from pathlib import Path

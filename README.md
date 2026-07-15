@@ -1,6 +1,6 @@
 # Enhancing Code-Mixed Speech Recognition using Whisper Fine-Tuning and LLM-Based Contextual Rescoring
 
-Bengali-English code-switched automatic speech recognition, built end to end on a single
+Bengali-English code-mixed automatic speech recognition, built end to end on a single
 8 GB consumer GPU (NVIDIA RTX 4060 Ti). The project reproduces the pipeline of
 *CLEAR: Code-Mixed ASR with LLM-Driven Rescoring* (Kumar and Akhtar, ICNLSP 2025) and
 extends it to a language pair the paper did not study, with four method-level additions.
@@ -65,7 +65,7 @@ in specific ways:
    with no acoustic marker.
 3. Script ambiguity: "file" is a legitimate transcription in Latin or Bengali script;
    naive WER punishes the model for choosing the "wrong" one.
-4. Data scarcity: Bengali-English code-switched speech is far scarcer than
+4. Data scarcity: Bengali-English code-mixed speech is far scarcer than
    Hindi-English, and Whisper saw very little Bengali during pre-training.
 
 ## Architecture

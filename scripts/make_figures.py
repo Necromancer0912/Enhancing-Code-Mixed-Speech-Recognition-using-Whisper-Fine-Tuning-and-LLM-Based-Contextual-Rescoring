@@ -31,7 +31,7 @@ def final_comparison(paths):
     ax.set_yticklabels(df.model, fontsize=8)
     ax.invert_yaxis()
     ax.set_xlabel("WER (%)")
-    ax.set_title("Bengali-English code-switched ASR: all systems, 1000-utterance test subset")
+    ax.set_title("Bengali-English code-mixed ASR: all systems, 1000-utterance test subset")
     ax.legend()
     ax.grid(axis="x", alpha=0.3)
     fig.tight_layout()

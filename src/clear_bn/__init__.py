@@ -1,4 +1,4 @@
-"""CLEAR-Bn: Bengali-English code-switched ASR with LLM-driven rescoring."""
+"""CLEAR-Bn: Bengali-English code-mixed ASR with LLM-driven rescoring."""
 from .audio import load_segment
 from .config import (
     BENGALI_BLOCK,

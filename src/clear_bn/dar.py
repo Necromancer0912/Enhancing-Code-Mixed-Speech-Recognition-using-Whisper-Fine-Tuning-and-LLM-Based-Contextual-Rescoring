@@ -1,6 +1,6 @@
 """Domain-Adaptive Rescorer: LoRA fine-tuning of a small multilingual LM on
 the MUCS training transcripts (text only). The paper rescoresonly with
-off-the-shelf LLMs; adapting the scorer to the exact code-switched,
+off-the-shelf LLMs; adapting the scorer to the exact code-mixed,
 spoken-tutorial register is our extension."""
 import gc
 
